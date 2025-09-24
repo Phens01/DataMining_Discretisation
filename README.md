@@ -67,14 +67,14 @@ install.packages("corrplot")
 
 ### 1. Clonage du Projet
 ```bash
-git clone https://github.com/votre-username/discretisation-app.git
-cd discretisation-app
+git clone https://github.com/Phens01/DataMining_Discretisation.git
+cd DataMining_Discretisation
 ```
 
 ### 2. Structure des Fichiers
 ```
 DataMining_Discretisation/
-├── app.R                    # Application Shiny principale
+├── app_.R                    # Application Shiny principale
 ├── winequality-red.csv      # Jeu de données par défaut
 ├── README.md               # Ce fichier
 ```
@@ -83,7 +83,7 @@ DataMining_Discretisation/
 ```r
 # Dans R ou RStudio
 library(shiny)
-runApp("app.R")
+runApp("app_.R")
 ```
 
 L'application s'ouvrira automatiquement dans votre navigateur par défaut ou une fenêtre popup de RStudio.
