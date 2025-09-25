@@ -95,8 +95,7 @@ server <- function(input, output, session) {
       tags$ul(
         tags$li("Explorer et analyser le jeu de données sur la qualité du vin"),
         tags$li("Appliquer quatre techniques de discretisation différentes"),
-        tags$li("Visualiser et interpréter les résultats"),
-        tags$li("Exporter les résultats pour une utilisation ultérieure")
+        tags$li("Visualiser et interpréter les résultats")
       ),
       br(),
       h3("Techniques de discretisation disponibles :"),
@@ -200,7 +199,7 @@ server <- function(input, output, session) {
   ui_apropos <- function() {
     tagList(
       h2("À propos de l'application"),
-      p("Cette application a été développée dans le cadre d'un projet de data science."),
+      p("Cette application a été développée dans le cadre d'un projet académique de data science."),
       br(),
       h3("Informations techniques :"),
       tags$ul(
@@ -214,13 +213,12 @@ server <- function(input, output, session) {
       br(),
       h3("Liens utiles :"),
       tags$ul(
-        tags$li(tags$a(href = "https://github.com/votre-username/votre-repo", 
+        tags$li(tags$a(href = "https://github.com/Phens01/DataMining_Discretisation.git", 
                        "Code source sur GitHub")),
         tags$li(tags$a(href = "https://archive.ics.uci.edu/ml/datasets/Wine+Quality", 
                        "Jeu de données Wine Quality"))
       ),
-      br(),
-      p("Date de développement : ", Sys.Date())
+      br()
     )
   }
   
@@ -334,7 +332,7 @@ server <- function(input, output, session) {
     ))
   }
   
-  # 3. Basée sur l'entropie - VERSION CORRIGÉE
+  # 3. Basée sur l'entropie
   discretisation_entropie <- function(variable, n_intervalles) {
     # Utilisation de la discrétisation par entropie avec une approche robuste
     tryCatch({
