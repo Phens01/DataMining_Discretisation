@@ -74,7 +74,7 @@ cd DataMining_Discretisation
 ### 2. Structure des Fichiers
 ```
 DataMining_Discretisation/
-├── app_.R                    # Application Shiny principale
+├── app.R                    # Application Shiny principale
 ├── winequality-red.csv      # Jeu de données par défaut
 ├── README.md               # Ce fichier
 ```
@@ -83,7 +83,7 @@ DataMining_Discretisation/
 ```r
 # Dans R ou RStudio
 library(shiny)
-runApp("app_.R")
+runApp("app.R")
 ```
 
 L'application s'ouvrira automatiquement dans votre navigateur par défaut ou une fenêtre popup de RStudio.
