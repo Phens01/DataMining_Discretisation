@@ -1,7 +1,7 @@
 # DataMining_Discretisation
 # Application de Discrétisation des Données
 
-## 📊 Vue d'ensemble
+## Vue d'ensemble
 
 Cette application Shiny interactive permet d'explorer et d'appliquer différentes techniques de discrétisation sur des données numériques. Elle a été développée pour analyser le dataset de qualité du vin rouge, mais peut être utilisée avec d'autres jeux de données CSV.
 
@@ -13,7 +13,7 @@ Cette application Shiny interactive permet d'explorer et d'appliquer différente
 - **Comparer** l'efficacité des différentes approches
 - **Exporter** les résultats pour une utilisation ultérieure
 
-## 🛠️ Fonctionnalités
+## Fonctionnalités
 
 ### Navigation Intuitive
 - **Accueil** : Présentation du projet et des objectifs
@@ -39,7 +39,7 @@ Cette application Shiny interactive permet d'explorer et d'appliquer différente
    - Identifie des groupes naturels dans les données
    - Découvre la structure intrinsèque des données
 
-## 📋 Prérequis
+## Prérequis
 
 ### Logiciels Requis
 - **R** (version ≥ 4.0.0)
@@ -63,7 +63,7 @@ install.packages(c(
 install.packages("corrplot")
 ```
 
-## 🚀 Installation et Lancement
+## Installation et Lancement
 
 ### 1. Clonage du Projet
 ```bash
@@ -88,7 +88,7 @@ runApp("app.R")
 
 L'application s'ouvrira automatiquement dans votre navigateur par défaut ou une fenêtre popup de RStudio.
 
-## 📊 Utilisation
+## Utilisation
 
 ### Import de Données
 1. Naviguez vers l'onglet **"Données"**
@@ -107,7 +107,7 @@ L'application s'ouvrira automatiquement dans votre navigateur par défaut ou une
 - Utilisez le bouton **"Exporter les résultats"** pour sauvegarder l'analyse
 - Le fichier contient les statistiques, coupures et interprétations
 
-## 📁 Jeu de Données Par Défaut
+## Jeu de Données Par Défaut
 
 L'application utilise le **Wine Quality Dataset** de l'UCI Machine Learning Repository :
 
@@ -131,7 +131,7 @@ L'application utilise le **Wine Quality Dataset** de l'UCI Machine Learning Repo
 - `alcohol` : Taux d'alcool
 - `quality` : Qualité (variable cible)
 
-## 🔧 Architecture Technique
+## Architecture Technique
 
 ### Technologies Utilisées
 - **Framework** : R Shiny
@@ -157,7 +157,7 @@ L'application utilise le **Wine Quality Dataset** de l'UCI Machine Learning Repo
 └── Export Functionality
 ```
 
-## 📈 Cas d'Usage
+## Cas d'Usage
 
 ### Types de Données Compatibles
 - Données numériques continues
@@ -165,7 +165,7 @@ L'application utilise le **Wine Quality Dataset** de l'UCI Machine Learning Repo
 - Données avec ou sans valeurs manquantes
 - Taille recommandée : 100-10,000 observations
 
-## 📞 Support et Contact
+## Support et Contact
 
 ### Auteur
 **MVOGO Stéphane**
